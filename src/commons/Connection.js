@@ -1,5 +1,5 @@
 import mysql from "promise-mysql";
-import configdb from "./Constants";
+import configdb from "./database";
 
 const connection = mysql.createConnection({
     host: configdb.HOST,
